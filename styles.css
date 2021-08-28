@@ -39,10 +39,26 @@ code {
   top: 0;
   left: 0;
   margin-bottom: 10vh;
+  padding: 15px;
+
+  align-items: center;
 }
-@media only screen and (max-width: 815px) {
-  #navbar ul {
-    border: 1px solid;
-    height: 207px;
+@media (min-width: 800px) {
+  #navbar {
+    align-items: left;
+    width: 50%;
   }
+}
+.designNav {
+  display: flex;
+  justify-content: space-between 5px;
+}
+.designNav li {
+  justify-content: space-between;
+  margin-left: 10px;
+  background-color: rgb(233, 233, 235);
+  border-radius: 5px;
+}
+ul {
+  list-style: none;
 }
